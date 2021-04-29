@@ -1,0 +1,9 @@
+Resources:
+  MyLayer:
+    Type: AWS::Serverless::LayerVersion
+    Properties:
+      ContentUri: lambda
+      CompatibleRuntimes:
+        - python3.6
+    Metadata:
+      BuildMethod: python3.6
