@@ -57,3 +57,5 @@ cdk destroy
 ```
 
 ![CDK deploy](img/destroy.png)
+
+as result a AWS lambda will be deployed.
